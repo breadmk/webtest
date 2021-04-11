@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+index.html111
+
+<table>
+	<tr th:each="dto : ${list}">
+		<td th:text="${dto.location}"></td>
+		<td th:text="${dto.name}"></td>
+		<td th:text="${dto.writedate}"></td>
+		<td th:text="${dto.process}"></td>
+		<td th:text="${dto.teacher}"></td>
+		<td th:text="${dto.score}"></td>
+		<td th:text="${dto.pwd}"></td>
+	</tr>
+</table>
+
+</body>
+</html>
